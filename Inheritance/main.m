@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Child.h"
+#import "Parent.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Parent * myChild = [Child alloc];
+        myChild = [myChild init];
+        [myChild Print];
+        
+        
     }
     return 0;
 }

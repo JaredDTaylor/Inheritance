@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		176822281B04D80500CD4C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 176822271B04D80500CD4C34 /* main.m */; };
+		176822301B04D89E00CD4C34 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1768222F1B04D89E00CD4C34 /* Parent.m */; };
+		176822331B04D8BC00CD4C34 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 176822321B04D8BC00CD4C34 /* Child.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		176822241B04D80500CD4C34 /* Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		176822271B04D80500CD4C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1768222E1B04D88700CD4C34 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		1768222F1B04D89E00CD4C34 /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		176822311B04D8AD00CD4C34 /* Child.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		176822321B04D8BC00CD4C34 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				176822271B04D80500CD4C34 /* main.m */,
+				1768222E1B04D88700CD4C34 /* Parent.h */,
+				1768222F1B04D89E00CD4C34 /* Parent.m */,
+				176822311B04D8AD00CD4C34 /* Child.h */,
+				176822321B04D8BC00CD4C34 /* Child.m */,
 			);
 			path = Inheritance;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176822331B04D8BC00CD4C34 /* Child.m in Sources */,
 				176822281B04D80500CD4C34 /* main.m in Sources */,
+				176822301B04D89E00CD4C34 /* Parent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
